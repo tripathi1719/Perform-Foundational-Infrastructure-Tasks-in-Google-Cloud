@@ -1,7 +1,12 @@
 export USERNAME2=
+
 export BUCKET_NAME=
+
 export TOPIC_NAME=
+
 export FUNCTION_NAME=
+
+
 gsutil mb gs://$BUCKET_NAME
 gcloud pubsub topics create $TOPIC_NAME
 mkdir cloudhustler
